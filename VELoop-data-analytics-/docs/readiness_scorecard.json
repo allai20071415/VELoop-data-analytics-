@@ -1,0 +1,62 @@
+[
+ [
+  "Event coverage",
+  1,
+  "Critical",
+  "38 events designed; none verified as implemented; supplied events do not follow the catalogue"
+ ],
+ [
+  "Data model",
+  1,
+  "Critical",
+  "Model designed; keys/links tested only for users, sessions, events, tasks. Rewards, wallet, withdrawals, referrals not supplied"
+ ],
+ [
+  "Data dictionary",
+  1,
+  "High",
+  "100 fields proposed; supplied dictionaries cover 2 + 26 fields and miss columns (DQ-033, DQ-034)"
+ ],
+ [
+  "KPI definitions",
+  2,
+  "High",
+  "46 KPIs defined; 18 KPI groups tested against supplied structure (10 calculable, 3 partial, 5 not)"
+ ],
+ [
+  "Data quality",
+  2,
+  "High",
+  "20 rules designed; 34 issues detected by automated checks with 11 passing tests; cleaning rules implemented"
+ ],
+ [
+  "Dashboard readiness",
+  1,
+  "Medium",
+  "7 dashboards specified and wireframed; no certified tables to power them"
+ ],
+ [
+  "Engineering instrumentation",
+  0,
+  "Critical",
+  "Nothing verified: IDs, idempotency, UTC timestamps and event emitters are all unknown (A001-A011)"
+ ],
+ [
+  "Access control",
+  1,
+  "High",
+  "Role model proposed; supplied data contains unnecessary personal fields (DQ-015)"
+ ],
+ [
+  "Documentation",
+  2,
+  "Medium",
+  "README, report, workbook, ER diagram, handoff spec; versioned in this project"
+ ],
+ [
+  "Reporting",
+  0,
+  "Medium",
+  "No governed recurring report exists; depends on production data"
+ ]
+]
